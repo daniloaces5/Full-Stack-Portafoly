@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body class="relative">
+    <header class="section">
+        <nav class="justify-between items-center m-5 mx-auto hidden lg:flex">
+            <svg class="h-16 fill-green-500" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Capa_1" x="0"
+                y="0" version="1.1" viewBox="0 0 1920 1080">
+                <path
+                    d="M1000.57 638.93c-18.77 28.35-36.96 56.31-55.68 83.9-9.95 14.66-19.85 29.57-31.63 42.71-8.3 9.25-19.37 16.23-29.83 23.29-13.09 8.83-27.79 14.6-43.13 18.09-10.62 2.41-21.57 4.48-32.41 4.68-32.3.61-64.63.16-96.94.32-3.68.02-4.72-.84-4.71-4.61.12-42.47.04-84.94.05-127.41.03-85.1.09-170.19.14-255.29.03-51.26.12-102.52 0-153.77-.01-4.14 2.18-3.64 4.69-3.64 38.31-.01 76.62-.03 114.93-.05 39.48-.02 78.95-.32 118.43.04 39.59.36 77.55 8.49 113.72 24.96 20.43 9.3 39.48 20.76 56.89 34.79 26.29 21.19 47.23 46.93 63.56 76.53 15.35 27.82 25.28 57.5 31.04 88.6 1.76 9.48 2.87 19.22 2.96 28.85.57 63.24.84 126.49 1.1 189.73.13 31.98-.04 63.97.13 95.95.02 4.02-.82 5.34-5.13 5.3-27.48-.21-54.97-.05-82.45-.22-1.87-.01-4.44-1.21-5.5-2.69-26.79-37.55-53.45-75.2-80.07-112.87-13.36-18.9-26.61-37.88-40.16-57.19m-211.53-98.69v66.98c0 38.99.05 77.97-.11 116.96-.02 3.91.95 5.24 4.94 4.95 8.24-.59 16.53-.6 24.77-1.17 19.28-1.35 33.48-11.11 43.96-26.94 19.42-29.34 38.95-58.6 58.3-87.98 30.91-46.93 61.73-93.92 92.55-140.91 15.73-23.98 31.28-48.08 47.15-71.97 2.14-3.23 1.82-5.32-.6-7.72-.95-.94-1.82-1.97-2.86-2.79-15.15-11.95-31.72-21.5-50.01-27.59-20.8-6.92-42.5-9.75-64.29-9.97-49.47-.5-98.96-.09-148.43-.25-4.39-.01-5.48 1.08-5.47 5.49.17 60.96.11 121.93.1 182.91m341.05 147.8c.33-.19.65-.38.98-.57 0-31.47.35-62.94-.11-94.4-.4-27.68 2.16-55.44-1.94-83.03-2.35-15.85-7.03-31.03-13.63-46.25-1.08 1.51-1.95 2.65-2.74 3.85-21.38 32.37-42.71 64.78-64.2 97.08-1.24 1.87-1.37 2.52-.04 4.45 22.52 32.67 44.86 65.45 67.28 98.19 4.74 6.92 9.6 13.79 14.4 20.68" />
+            </svg>
+
+            <div class="flex gap-3">
+                <a href="#" class="link">Projectos</a>
+                <a href="#" class="link">About ME</a>
+                <a href="#" class="link">Contact</a>
+            </div>
+        </nav>
+        <nav class="flex justify-between items-start m-5 mx-15 lg:hidden">
+            <svg class="h-16 fill-green-500" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="Capa_1" x="0"
+                y="0" version="1.1" viewBox="0 0 1920 1080">
+                <path
+                    d="M1000.57 638.93c-18.77 28.35-36.96 56.31-55.68 83.9-9.95 14.66-19.85 29.57-31.63 42.71-8.3 9.25-19.37 16.23-29.83 23.29-13.09 8.83-27.79 14.6-43.13 18.09-10.62 2.41-21.57 4.48-32.41 4.68-32.3.61-64.63.16-96.94.32-3.68.02-4.72-.84-4.71-4.61.12-42.47.04-84.94.05-127.41.03-85.1.09-170.19.14-255.29.03-51.26.12-102.52 0-153.77-.01-4.14 2.18-3.64 4.69-3.64 38.31-.01 76.62-.03 114.93-.05 39.48-.02 78.95-.32 118.43.04 39.59.36 77.55 8.49 113.72 24.96 20.43 9.3 39.48 20.76 56.89 34.79 26.29 21.19 47.23 46.93 63.56 76.53 15.35 27.82 25.28 57.5 31.04 88.6 1.76 9.48 2.87 19.22 2.96 28.85.57 63.24.84 126.49 1.1 189.73.13 31.98-.04 63.97.13 95.95.02 4.02-.82 5.34-5.13 5.3-27.48-.21-54.97-.05-82.45-.22-1.87-.01-4.44-1.21-5.5-2.69-26.79-37.55-53.45-75.2-80.07-112.87-13.36-18.9-26.61-37.88-40.16-57.19m-211.53-98.69v66.98c0 38.99.05 77.97-.11 116.96-.02 3.91.95 5.24 4.94 4.95 8.24-.59 16.53-.6 24.77-1.17 19.28-1.35 33.48-11.11 43.96-26.94 19.42-29.34 38.95-58.6 58.3-87.98 30.91-46.93 61.73-93.92 92.55-140.91 15.73-23.98 31.28-48.08 47.15-71.97 2.14-3.23 1.82-5.32-.6-7.72-.95-.94-1.82-1.97-2.86-2.79-15.15-11.95-31.72-21.5-50.01-27.59-20.8-6.92-42.5-9.75-64.29-9.97-49.47-.5-98.96-.09-148.43-.25-4.39-.01-5.48 1.08-5.47 5.49.17 60.96.11 121.93.1 182.91m341.05 147.8c.33-.19.65-.38.98-.57 0-31.47.35-62.94-.11-94.4-.4-27.68 2.16-55.44-1.94-83.03-2.35-15.85-7.03-31.03-13.63-46.25-1.08 1.51-1.95 2.65-2.74 3.85-21.38 32.37-42.71 64.78-64.2 97.08-1.24 1.87-1.37 2.52-.04 4.45 22.52 32.67 44.86 65.45 67.28 98.19 4.74 6.92 9.6 13.79 14.4 20.68" />
+            </svg>
+            <div class="flex top-5 left-1/2 w-80 bg-white rounded-md p-5 transform -translate-x-1/2 z-50 hidden">
+                <ul>
+                    <li><a href="#" class="link">Projectos</a></li>
+                    <li><a href="#" class="link">About ME</a></li>
+                    <li><a href="#" class="link">Contact</a></li>
+                    <li><a href="#" class="link">Projectos</a></li>
+                    <li><a href="#" class="link">About ME</a></li>
+                    <li><a href="#" class="link">Contact</a></li>
+                </ul>
+            </div>
+            <button id="menu"
+                class="border-4 hover:bg-green-500 hover:text-white border-green-500 rounded-sm text-green-500 w-10 h-10 transition-all duration-300 mt-4"><svg
+                    id="menud" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="stroke-green-500 hover:stroke-white">
+                    <path fill-rule="evenodd"
+                        d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg id="menur" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="stroke-red-500 hover:stroke-white hidden">>
+                    <path fill-rule="evenodd"
+                        d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
+        </nav>
+        <section class="mx-auto max-w-[1080px]">
+            <img src="public/images/Item.png" class="mx-auto md:w-60 w-1/3" alt="Foto de portada">
+            <div class="mt-16 text-center m-15">
+                <h1 class="h1 text-black">FULL STACK DEVELOPER</h1>
+                <p class="mt-5 max-w-3xl text-lg font-semibold mx-auto">Estoy aprendiendo y aplicando cada día. Me
+                    enfoco en
+                    crear sitios rápidos, funcionales y con buen diseño. Cada línea de código que escribo es un paso más
+                    hacia mi mejor versión.</p>
+            </div>
+            <img src="public/images/Portada img.png" class="mx-auto" alt="Foto de portada">
+        </section>
+    </header>
+
+    <!-- Sección de Sobre mí -->
+    <section id="about" class="bg-green-500 pt-25 pb-25 w-full">
+        <div class="max-w-[700px] min-w-[300px] mx-auto text-center w-4/5">
+            <h2 class="h2 text-white">Full Stack Developer en formación, con visión clara y muchas ganas de construir
+            </h2>
+            <p class="mt-10 mx-auto max-w-3xl text-lg text-white font-semibold">Soy un desarrollador web full stack en
+                formación, con una mentalidad enfocada en el crecimiento constante y la mejora continua. Me apasiona
+                construir aplicaciones funcionales, rápidas y con buen diseño. Actualmente estoy profundizando en
+                JavaScript, Tailwind CSS, Node.js y bases de datos relacionales.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="projects" class="section">
+        <h2 class="h2 mx-auto text-center my-20">Resumen de tecnologías</h2>
+        <div
+            class="grid grid-cols lg:grid-cols-3 divide-x-1 divide-green-800 border-1 border-green-500 text-center rounded-2xl lg:w-7/8 w-5/8 mx-auto max-w-[1000px]">
+            <div class="">
+                <h3 class="mt-10">Lenguajes que uso</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                </svg>
+                <ul class="my-10">
+                    <li>HTML, CSS, JavaScript (ES6+)</li>
+                    <li>SQL básico (con PostgreSQL)</li>
+                </ul>
+            </div>
+            <div class="">
+                <h3 class="mt-10">Frameworks y herramientas</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z" />
+                </svg>
+                <ul class="my-10">
+                    <li>Tailwind CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Node JS</li>
+                    <li>EJS</li>
+                    <li>Git y GitHub</li>
+                </ul>
+            </div>
+            <div class="">
+                <h3 class="mt-10">Flujo de Trabajo</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>
+
+                <ul class="my-10">
+                    <li>Diseño y estructura móvil primero</li>
+                    <li>Código modular y reutilizable</li>
+                    <li>Control de versiones con Git</li>
+                    <li>Uso de VS Code con extensiones optimizadas</li>
+                    </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes encontrarme en <a href="mailto:tucorreo@example.com">correo@example.com</a></p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="h-70 bg-green-500">
+        <p>&copy; 2025 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- npm run dev -->
